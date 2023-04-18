@@ -7,6 +7,8 @@ docker run -d --name postgres-axon -p 5432:5432 -e POSTGRES_PASSWORD=password po
 
 # How to reproduce the error
 
+Error is `Cannot request current Scope if none is active`
+
 - Run axonserver locally
 - Run postgres
 - Launch Core app
