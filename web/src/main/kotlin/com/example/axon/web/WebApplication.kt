@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RestController
 import reactor.core.publisher.Mono
+import java.time.ZoneOffset.UTC
+import java.util.*
 
 @SpringBootApplication(
     exclude = [DataSourceAutoConfiguration::class]
@@ -16,6 +18,7 @@ import reactor.core.publisher.Mono
 class WebApplication
 
 fun main(args: Array<String>) {
+    TimeZone.setDefault(TimeZone.getTimeZone(UTC))
     runApplication<WebApplication>(*args)
 }
 
