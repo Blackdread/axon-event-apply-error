@@ -1,11 +1,11 @@
-package com.example.axon
+package com.example.axon.core
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class AxonApplication
+class CoreApplication
 
 fun main(args: Array<String>) {
-	runApplication<AxonApplication>(*args)
+	runApplication<CoreApplication>(*args)
 }
