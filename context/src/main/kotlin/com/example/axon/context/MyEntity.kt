@@ -1,4 +1,4 @@
-package com.example.axon.core
+package com.example.axon.context
 
 import com.example.axon.common.*
 import org.axonframework.commandhandling.CommandHandler
