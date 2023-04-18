@@ -1,4 +1,4 @@
-package com.example.axon
+package com.example.axon.core
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
